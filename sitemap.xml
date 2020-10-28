@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nick110.github.io/2020/04/25/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://nick110.github.io/2020/10/25/React-Hooks%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</loc>
     
-    <lastmod>2020-08-30T15:29:53.160Z</lastmod>
+    <lastmod>2020-10-28T16:46:58.666Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://nick110.github.io/2019/10/14/React%E4%B8%AD%E7%9A%84Render%20Props/</loc>
     
-    <lastmod>2020-04-25T01:52:35.236Z</lastmod>
+    <lastmod>2020-10-26T16:22:44.954Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nick110.github.io/2020/04/25/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2020-08-30T15:29:53.160Z</lastmod>
     
   </url>
   
