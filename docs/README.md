@@ -19,6 +19,6 @@ config:
   -
     type: profile
     name: 杨少侠
-    description: 一个长相十分帅气的程序猿。
+    description: 一个长相十分帅气的程序猿
     avatar: https://static.dingtalk.com/media/lQDPD3phchnTo83NAabNAaaw07x-rTWiZNEGLcKMguzOAA_422_422.jpg
 ---
