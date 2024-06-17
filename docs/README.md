@@ -17,6 +17,8 @@ config:
           text: 进入博客 →
           link: /blog/
   -
+    type: MyComponent
+  -
     type: profile
     name: 杨少侠
     description: 一个长相十分帅气的程序猿
