@@ -38,9 +38,6 @@ export default defineUserConfig({
     ],
     navbarSocialInclude: ["github", "juejin", "x", "instagram"],
     logo: "https://p1.music.126.net/KAR_1udSJMUlUQAXOyH-4g==/18565253836756676.jpg?param=180y180",
-    head: [
-      ['link', { rel: 'icon', sizes: '32x32', href: '../images/favicon.ico' }],
-    ],
   
     footer: {message: 'What can I say?', copyright: "© 2024 杨少侠's Studio"},
     notFound: {
@@ -53,5 +50,8 @@ export default defineUserConfig({
   notes: {
     dir: '/notes/', // 声明所有笔记的目录
     link: '/note', // 声明所有笔记默认的链接前缀， 默认为 '/'
-  }
+  },
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.png' }],
+  ],
 });
