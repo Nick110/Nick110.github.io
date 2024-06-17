@@ -5,7 +5,6 @@ import { plumeTheme } from "vuepress-theme-plume";
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: plumeTheme({
-    favicon: '../images/favicon.ico ',
     navbar: [
       { text: "首页", link: "/", icon: "material-symbols:home-outline" },
       {
@@ -39,6 +38,11 @@ export default defineUserConfig({
     ],
     navbarSocialInclude: ["github", "juejin", "x", "instagram"],
     logo: "https://p1.music.126.net/KAR_1udSJMUlUQAXOyH-4g==/18565253836756676.jpg?param=180y180",
+    head: [
+      ['link', { rel: 'icon', sizes: '32x32', href: '../images/favicon.ico' }],
+    ],
+  
+    footer: {message: 'What can I say?', copyright: "© 2024 杨少侠's Studio"},
     notFound: {
       quote: "👀你瞅啥？404了，还不赶紧走？"
     }
