@@ -52,6 +52,6 @@ export default defineUserConfig({
     link: '/note', // 声明所有笔记默认的链接前缀， 默认为 '/'
   },
   head: [
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/logo.png' }],
   ],
 });
