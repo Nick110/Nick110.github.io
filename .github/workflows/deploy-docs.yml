@@ -32,10 +32,15 @@ jobs:
           node-version: 20.16.0
           # 缓存 pnpm 依赖
           cache: pnpm
+          
+      # 清理node_modules
+      - name: Clean up node_modules
+        run: rm -rf node_modules
 
       # 安装依赖
       - name: Install dependencies using pnpm
         run: pnpm install
+
 
       # 运行构建脚本
       - name: Build VuePress site
