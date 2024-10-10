@@ -52,7 +52,7 @@ let stu = new Student()
 console.log(stu.getPersonValue()) // CoderBin
 ```
 
-![图解原型链继承](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cb91633be9244ecaa7b3e5a782c90fe8~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![图解原型链继承](https://static.hzpdex.com/web/1728555527936_cb91633be9244ecaa7b3e5a782c90fe8~tplv-k3u1fbpfcp-zoom-in-crop-mark_3024_0_0_0.jpg)
 
 ### 原型与继承的关系
 

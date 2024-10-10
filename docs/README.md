@@ -16,6 +16,7 @@ config:
           theme: alt
           text: 进入博客 →
           link: /blog/
+  - type: blog
   -
     type: profile
     name: 杨少侠

@@ -5,12 +5,30 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: plumeTheme({
+    plugins: {
+      shiki: {
+        languages: ['javascript', 'typescript', 'vue', 'bash', 'sh'],
+      },
+    },
+    blog: {
+      postCover: 'left', // 文章封面
+    },
     navbar: [
       { text: '首页', link: '/', icon: 'material-symbols:home-outline' },
       {
         text: '博客',
         link: '/blog/',
         icon: 'material-symbols:article-outline',
+      },
+      {
+        text: '分类',
+        link: '/blog/categories/',
+        icon: 'material-symbols:wind-power-outline-rounded',
+      },
+      {
+        text: '归档',
+        link: '/blog/archives/',
+        icon: 'material-symbols:window-closed-outline-rounded',
       },
     ],
     avatar: {
@@ -23,6 +41,13 @@ export default defineUserConfig({
     },
     social: [
       { icon: 'github', link: 'https://github.com/Nick110' },
+      {
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 64 64"><path fill="currentColor" d="M43.6 28.5H63V63H1V28.5h19.4v17.2h23V28.5zm0-27.5H20.4v17.3h23V1z"/></svg>',
+          name: 'unsplash',
+        },
+        link: 'https://unsplash.com/@nick_y',
+      },
       {
         icon: 'juejin',
         link: 'https://juejin.im/user/59279a91ac502e006c5221ea',
