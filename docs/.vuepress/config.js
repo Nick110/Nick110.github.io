@@ -72,10 +72,8 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: "杨少侠's Studio",
   description: '是兄弟，就来砍我吧',
-  notes: {
-    dir: '/notes/', // 声明所有笔记的目录
-    link: '/note', // 声明所有笔记默认的链接前缀， 默认为 '/'
-  },
+  notes: false,
+  sidebar: 'auto',
   head: [
     [
       'link',
